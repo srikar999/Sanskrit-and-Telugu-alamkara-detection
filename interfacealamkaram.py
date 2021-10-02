@@ -3,6 +3,7 @@ from indic_transliteration.sanscript import SchemeMap, SCHEMES, transliterate
 words=""
 res=""
 from tkinter import *
+import os
 def longestRepeatedSubstring(str):
 
     n = len(str)
